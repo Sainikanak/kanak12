@@ -1,0 +1,317 @@
+body{        
+    padding-top: 53px;
+    padding-bottom: 40px;
+}
+.container{
+    width: 100%;
+    margin: 0 auto; /* Center the DIV horizontally */
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;        
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+.fixed-header{
+    top: 0;
+}
+.fixed-footer{
+    bottom: 0;
+    
+}    
+/* Some more styles to beutify this example */
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
+
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    height: 30%;
+
+  }
+  .text {
+    color: #f2f2f2;
+    font-size: 50px;
+    padding: 8px 12px;
+    position: absolute;
+    top:100px;
+    margin:100px;
+    
+    width: 100%;
+    text-align: left;
+  }
+  .text1 {
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 8px 12px;
+    position: absolute;
+    top:150px;
+    margin:100px;
+    
+    width: 100%;
+    text-align: left;
+  }
+  .button1 {
+      background-color: aqua;
+      border-radius: 10px;
+    font-weight: 200;
+    font-size: 20px;
+    padding: 8px;
+    position: absolute;
+    top:250px;
+    margin:100px;
+    
+    width: 10%;
+    text-align: center;
+  }
+  .button2 {
+    background-color: black;
+    color: #f2f2f2;
+    border-radius: 10px;
+  font-weight: 200;
+  font-size: 20px;
+  padding: 8px;
+  position: absolute;
+  top:250px;
+  margin:100px;
+  margin-left: 300px;
+  width: 10%;
+  text-align: center;
+}
+.row1{
+  margin-top: -10px;
+}
+.row1 h2{
+  padding-top: 13px;
+}
+.row1 p{
+  color: #ffffff !important;
+}
+.mt-5{
+  margin-top: 3rem !important;
+}
+.mb-5{
+  margin-bottom: 3rem;
+}
+.row3 p{
+  color: #ffffff !important;
+}
+.column1 {
+    float: left;
+    color: white;
+    text-align: center;
+    width: 30%;
+    background-color: #5087c0;
+    padding: 10px;
+    height: 100px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    
+    display: table;
+    clear: both;
+    flex-direction: row;
+    width: 100%;
+  }
+  .vertical-line{
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    margin: 0 10px;
+    height: 125px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  section {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .column {
+    width: 100%;
+    padding: 0 1em 1em 1em;
+    text-align: center;
+  }
+  .card {
+    width: 100%;
+    height: 100%;
+    padding: 2em 1.5em;
+    background: linear-gradient(#ffffff 50%, #2c7bfe 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.5%;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1f194c;
+    margin: 1em 0;
+  }
+  p {
+    color: #575a7b;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+  }
+  .icon-wrapper {
+    background-color: #2c7bfe;
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+  }
+  .card:hover {
+    background-position: 0 100%;
+  }
+  .card:hover .icon-wrapper {
+    background-color: #ffffff;
+    color: #2c7bfe;
+  }
+  .card:hover h3 {
+    color: #ffffff;
+  }
+  .card:hover p {
+    color: #f0f0f0;
+  }
+  @media screen and (min-width: 768px) {
+    section {
+      padding: 0 2em;
+    }
+    .column {
+      flex: 0 50%;
+      max-width: 50%;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    section {
+      padding: 1em 3em;
+    }
+    .column {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+    }
+  }
+  .leftimg{
+      width: 50%;
+      float:left;
+  }
+  .img{
+      width:100%;
+      height: 400px;
+      margin-left: 20px;
+      margin-bottom: 100px;
+      padding: 10px;
+    
+  }
+  .para{
+    margin-left: 55%;
+    margin-right: 30px;
+  }
+  .head{
+      text-align: center;
+      font-weight: bold;
+      font-size: 30px;
+      margin-top: 50px;
+  }
+  .text-center{
+      text-align: center;
+      margin-top: 20px;
+  }
+  .client{
+      margin-top: 300px;
+      text-align: center;
+      width: 100%;
+  }.heading1{
+      text-align: center;
+      margin: auto;
+      padding: 40px;
+      margin-top: 255px;
+     
+  }
+ 
+  .para-client{
+      text-align: center;
+      margin-left: 200px;
+      margin-right: 200px;
+  }
+  .image-client{
+      margin-top: 60px;
+      margin-left: 650px;
+      border-radius: 50%;
+  }
+  .news{
+background-color: #89a7d8;
+  }
+  .column2 {
+    float: left;
+    color: white;
+    text-align: center;
+    width: 30%;
+    background-color: white;
+   
+    margin-left: 30px;
+    padding: 10px;
+    height: 100px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row2:after {
+    content: "";
+    margin-left:200px;
+    padding-bottom: 50px;
+    display: table;
+    clear: both;
+    flex-direction: row;
+    width: 100%;
+  }
+  .trilling{
+      background-color:rgb(2, 2, 12);
+      padding-bottom: 150px;
+     
+  }
+  .column3 {
+    float: left;
+    color: white;
+    text-align: center;
+    width: 30%;
+    
+    padding: 10px;
+    height: 100px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row3:after {
+    content: "";
+    padding: 20px;
+    display: table;
+    clear: both;
+    flex-direction: row;
+    width: 100%;
+  }
+  
